@@ -1,9 +1,9 @@
 <?php
-$animais = [
-    'Gorilla', 
-    'Zebra', 
-    'Giraffa'
-    ];
+$idade = 18;
 
-echo '<pre>';
+if ($idade >= 18) {
+    echo 'É maior de idade';
+} else {
+    echo 'É menor de idade';
+}
 ?>
